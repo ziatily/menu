@@ -69,17 +69,18 @@ ul li::before{
     content: '';
     width: 180px;
     height: 80px;
-    background: #fff;
+    background-image: url("index.jpg");
+    background-size: 100% 100%;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,70%);
-    border-radius: 50%;
+    /* border-radius: 50%; */
     box-shadow: 0 0 80px orangered;
     opacity: 0;
     transition: 0.5s;
 }
 ul li:hover::before{
-    opacity: 0.5;
+    opacity: 1;
     width: 80px;
 }
